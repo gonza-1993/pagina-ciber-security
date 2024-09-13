@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url("../img/descarga\ \(5\).jpeg");
+    /* background-position: 20px 30px; */
+    margin-bottom: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: contain;
+    /* border-radius: 100px; */
+}

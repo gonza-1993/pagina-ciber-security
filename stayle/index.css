@@ -1,0 +1,177 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(233, 226, 226);
+    color: black;
+
+    /* background: #efefef; */
+}
+
+.navbar {
+    background-color: rgba(60, 154, 255, 0.652);
+    color: rgb(55, 55, 136);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 4px;
+    padding: 10px;
+    border-radius: 15px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+
+    /* z-index: 3;
+    position: absolute; */
+}
+
+/* .logoFlechaDerecha{
+    display: flex;
+    align-items: center;
+    padding-right: 15px;
+} */
+.navLeft {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navLeft img {
+    padding-bottom: 5px;
+    padding-left: 40px;
+    margin-left: 4px;
+    height: 42px;
+    width: 42px;
+}
+
+.navLeft h3 {
+    font-size: 22px;
+    padding-left: 15px;
+
+}
+
+.navRigth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navRigth img {
+    padding-right: 40px;
+    margin-left: 4px;
+    height: 42px;
+    width: 42px;
+}
+
+.navRigth h3 {
+    font-size: 22px;
+    padding-right: 15px;
+}
+
+.cursosDeCibersecurity a {
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: rgba(60, 154, 255, 0.652);
+    transition: rgb(7, 46, 201);
+    color: rgb(62, 38, 2);
+    border-radius: 15px;
+    /* background-color: powderblue; */
+   
+}
+.cursosDeCibersecurity a:hover{
+    background-color: gold;
+}
+
+.title h1 {
+    display: flex;
+    align-items: center;
+    padding-left: 20%;
+    font-size: 30px;
+    margin: 10px 5px 10px 5px;
+
+}
+
+.imagenSeccion1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+}
+
+.imagenSeccion1 img {
+    width: 1800px;
+    margin-right: 2%;
+    border-radius: 23%;
+}
+
+.imagenSeccion1 p {
+    margin: 5%;
+    margin-right: 50px;
+    font-size: 19px;
+}
+
+.imagenSeccion1 .imagenseccion2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+}
+
+.imagenseccion2txt {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagenseccion2 img {
+    width: 1900px;
+    margin-right: 2%;
+    border-radius: 23%;
+}
+
+.imagenseccion2 p {
+    font-size: 19px;
+    margin: 5%;
+    margin-right: 50px;
+}
+
+.imagenseccion3 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+}
+
+.imagenseccion3 img {
+    width: 1400px;
+    margin-right: 2%;
+    border-radius: 23%;
+}
+
+.imagenseccion3 p {
+    font-size: 19px;
+    margin: 5%;
+    margin-right: 50px;
+}
+
+.imagenseccion4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    margin: 5px;
+}
+
+.imagenseccion4 img {
+    width: 1000px;
+    margin-right: 2%;
+    border-radius: 23%;
+}

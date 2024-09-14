@@ -4,15 +4,16 @@
 }
 
 body {
-    background-color: rgb(233, 226, 226);
+    background-color: rgb(66, 61, 61);
     color: black;
 
     /* background: #efefef; */
 }
 
+
 .navbar {
-    background-color: rgba(60, 154, 255, 0.652);
-    color: rgb(55, 55, 136);
+    background-color: #081a08;
+    color: rgb(155, 155, 220);
 
     display: flex;
     align-items: center;
@@ -46,6 +47,7 @@ body {
     height: 42px;
     width: 42px;
 }
+
 
 .navLeft h3 {
     font-size: 22px;
@@ -114,6 +116,7 @@ body {
     margin: 5%;
     margin-right: 50px;
     font-size: 19px;
+    color: #00ff00;
 }
 
 .imagenSeccion1 .imagenseccion2 {

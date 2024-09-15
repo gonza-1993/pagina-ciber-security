@@ -4,8 +4,10 @@
 }
 
 body {
-    background-color: rgb(66, 61, 61);
-    color: black;
+    background-color: #000;
+    color: #00ff00;
+    /* background-color: rgb(66, 61, 61);
+    color: black; */
 
     /* background: #efefef; */
 }

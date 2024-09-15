@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Share Tech Mono', monospace;
+}
+body{
+    background-color: #000;
+    color: #00ff00;
+}
+.about-title {
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+
+
+}
+
+.about-gonzalo{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px;
+
+
+}
+
+.about-gonzalo p{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+.about-gonzalo img{
+    display: flex;
+    width: 300px;
+    border-radius:35px;
+
+}
+
+.about-luis{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 2px;
+    margin-top: 20px;
+
+
+
+}
+
+.about-luis p{
+    display: flex;
+    align-items: center;
+    margin: 15px;
+}
+
+.about-luis img{
+    display: flex;
+    width: 300px;
+    border-radius:35px;
+
+
+}
